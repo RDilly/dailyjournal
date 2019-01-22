@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/journal.css">
+    <title>Daily Journal</title>
+</head>
+<body>
+    <div class="bg">
+    <form class= "form" action="">
+        <fieldset class="field">
+            <label for="journalDate">Date of Entry</label>
+        <input type="date" name="journalDate" id="journalDate">    
+        </fieldset>
+        <fieldset class="field">
+            <label for="concepts">Concepts Covered</label>
+            <input type="text">
+        </fieldset>
+        <fieldset class="field">
+            <label for="entry">Journal Entry</label>
+            <form action="/action_page.php">
+                <textarea name="message" rows="4" cols="30">type journal entry here</textarea>
+              </form>
+        </fieldset>
+        <fieldset class="field">
+            <label for="mood">Mood for a Day</label>
+            <select name="moods" id="">
+                <option value="happy">Happy</option>
+                <option value="excited">Excited</option>
+                <option value="meh">Meh</option>
+                <option value="overwhelmed">Overwhelmed</option>
+                <option value="scared">Scared</option>
+                <option value="stupid">Stupid</option>
+                <option value="sad">Blubbering pile of nonsense</option>
+            </select>
+        </fieldset>
+    </form>
+    <button type="submit">Submit all of this</button>
+
+    <article id="entryLog">
+    </article>
+    <script src="scripts/journal.js"></script>
+    </div>
+</body>
+</html>
