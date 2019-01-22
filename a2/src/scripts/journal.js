@@ -11,9 +11,11 @@ fetch("http://localhost:3000/entries")
 
 const makeJournalEntryComponent = (allEntries) => {
     return `
+    <div class="entry">
     <h1>${allEntries.concepts}</h1>
     <h2>Feeling ${allEntries.mood} on ${allEntries.date}</h2>
-    <p>${allEntries.entry}</p> `
+    <p>${allEntries.entry}</p> 
+    </div>`
 }
 
 function renderJournalEntries(x){
