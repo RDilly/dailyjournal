@@ -5,35 +5,40 @@
 .header{
     display: flex;
     justify-content: center;
+    width: fill;
 }
 
 .field{
     display: flex;
     flex-direction: column;
+    font-size: 27px;
     width: 300px;
+    border: none;
 }
-/* 
-.form{
-    display: flex;
-    align-co: center;
-    flex-direction: column;
-} */
+.input__box{
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 .wrapper{
+    margin-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 body{
-    background-color: #6d5277;
-    color: blanchedalmond;
+    background-size: cover;
+    background-color: #220011;
+    color: #88aabb;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .entry{
     width: 425px;
     margin: 20px;
     padding: 20px;
-    background-color: blanchedalmond;
+    background-color: #887766;
     color: #360947;
     border-radius: 15%;
 }
