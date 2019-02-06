@@ -54,7 +54,6 @@ function renderJournalEntries(x) {
     containerEl.innerHTML += x
 };
 
-
 // function validateForm(inputValue) {
 //     var x = document.forms["form1"][`${inputValue}`].value;
 //     var regex = /^[a-zA-Z0-9@]+$/;
